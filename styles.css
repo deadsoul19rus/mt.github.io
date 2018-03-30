@@ -1,0 +1,517 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+	font-family: 'PT Sans', sans-serif;
+    font-size:18px;
+   background-color: gray;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+.container{
+	width: 650px;
+	
+	margin: 50px auto;
+	background-color: grey;
+	
+}
+
+
+.flx{
+	display: flex;
+	flex-direction: row;
+	height: auto;
+}
+
+.container .logo_top{
+	background-color: #4cb62c;
+	width: 36%;
+	display: flex;
+	
+}
+
+.logo_top img{
+	
+	margin:auto;
+}
+
+
+.vis{
+	background-image:url(images/b1.png);
+	width: 64%;
+}
+
+.vis div{
+	font-weight:bold;
+	
+	color: white;
+	margin: 35px 31px 38px 50px;
+}
+
+.vis span{
+	color: #f3a205;
+	font-weight: 100;
+}
+
+.vis a{
+	text-decoration: none;
+	border-bottom: 1px white solid;
+	color: white;
+	    margin-right: 39px;
+}
+.vis a :last-child{
+	margin-left:20px !important; 
+}
+
+.telegram_bot{
+	background-color: #1b89d5;
+	padding: 50px 10px 0 50px;
+	background-image:url(images/telegram-bot.png);
+	background-position-x: center;
+	background-repeat: no-repeat;
+	background-position-y: 40px;
+	height:415px;
+	overflow: hidden;
+	display:flex;
+	justify-content: space-between;
+}
+
+
+.row1{
+	display:inline-block;
+	vertical-align: top;
+}
+
+.row2{
+	display:inline-block;
+	position: relative;
+	background-position-x: 20px;
+}
+
+.telegram_bot .logo_nl_tb{
+	width: 110px;
+}
+.telegram_bot p {color: white;     font-weight: bold;}
+
+.hello{
+	font-size:25px;
+	margin-top:35px;
+}
+
+.add{
+	font-size:30px;
+	margin-top: 25px;
+	line-height: 35px;
+}
+
+.btn{
+	display: inline-block;
+	padding: 17px;
+	font-weight:700;
+	background-color: #ffa800;
+	border-radius:5px;
+	color:white;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+.btn:hover{
+	opacity:0.8;
+}
+
+.iph{
+	margin-top: -35px;
+}
+
+.logo_tel{
+	position: absolute;
+    display: inline-block;
+    top: 117px;
+    right: 60px;
+}
+
+.text_block{
+	background-image: url(images/fon.png);
+	padding: 50px 0 15px 50px;
+	position:relative;
+	
+}
+.boring-text{
+	font-size: 18px;
+	font-weight: 600;
+	display:block;
+	margin-bottom:30px;
+}
+
+.rage-text{
+	font-size: 30px;
+	font-weight: 600;
+	display:block;
+	margin-bottom:30px;
+}
+
+.book{
+	position:absolute;
+	right: 0;
+    top: 80px;
+}
+
+.find_telegr{
+	background-image: url(images/rect.png);
+	padding: 60px 25px 50px 45px;
+	color: white;
+	position:relative;
+}
+
+.second_descr{
+	width: 47%;
+}
+
+.first_iph{
+	background-image: url(images/chat.png);
+	background-repeat: no-repeat;
+    background-position-x: 15px;
+    background-position-y: 58px;
+	
+}
+
+.find_in{
+	font-size: 30px;
+	font-weight: 900;
+	margin-top: 6px;
+	margin-bottom: 15px;
+}
+
+.f_i{
+	display:block;
+	margin-bottom:20px;
+}
+
+.f_i span{ font-weight:800;}
+
+.f_i.mrg{margin-bottom: -10px;}
+
+.find_telegr .flx{
+	justify-content:space-between;
+	margin-bottom: 30px;
+}
+
+.biss{
+	padding-left: 20px;
+}
+
+.biss li {
+	    padding-left: 10px;
+}
+
+.biss li{ 
+	list-style: none;
+	list-style-image: url('images/ellipse.png'); 
+	padding-left: 12px;
+	margin-bottom: 5px;
+}
+
+.nice_border{
+	padding:15px 5px 15px 15px;
+	border: 2px solid white;
+	position:relative;
+	margin-bottom: 15px;
+}
+
+.nice_border:before{
+	position:absolute;
+	content: url('images/+.png');
+	left: -17px;
+	top: -17px;
+}
+
+.cup{
+	position:absolute;
+	right: 0px;
+    bottom: -142px;
+}
+
+.manual{
+	background-color:white;
+	padding: 50px 0 32px 50px;
+}
+
+.ul_how{
+	padding-left: 20px;
+}
+
+.ul_how li {
+	    padding-left: 10px;
+}
+
+.ul_how li{ 
+	list-style: none;
+	list-style-image: url('images/ell_bl.png'); 
+	padding-left: 12px;
+	margin-bottom: 10px;
+}
+
+.dwnld{
+	background-color: #f6f6f6;
+	padding: 40px 40px 27px 50px;
+}
+
+.befico{
+	position:relative;
+	
+}
+.befico:before{
+	position:absolute;
+	left: 0px;
+}
+
+
+
+.nl_store:before{
+	content: url('images/nlstore.png');
+	
+}
+
+
+.mrgst{
+	margin-left:93px;
+	margin-bottom: 40px;
+}
+.nl_reader:before{
+	content: url('images/nlread.png');
+}
+
+.befico{
+	position:relative;
+	
+}
+.befico:before{
+	position:absolute;
+	left: 0px;
+}
+
+.d1{
+	display: flex;
+	justify-content: space-between;
+}
+
+.dlink{
+	display:block;
+	margin-bottom:12px;
+	
+	
+}
+
+.sbr{
+	padding: 40px 40px 40px 50px;
+	background-color: #fff;
+	
+}
+
+.title{
+	font-weight:900;
+	
+}
+
+.nl_news:before{
+	content: url('images/nlnews.png');
+}
+
+
+.nl_assist:before{
+	content: url('images/nlass.png');
+}
+
+.btn_sub{
+	display: inline-block;
+    background-color: #34ace0;
+    color: white;
+    border-radius: 5px;
+    padding: 12px 20px 12px 20px;
+    cursor: pointer;
+}
+
+.btn_sub:hover{
+	opacity:0.8;
+}
+
+.nl_news .mrgst{
+	margin-bottom: 30px;
+	
+}
+
+.nl_assist .mrgst{
+	margin-bottom: 30px;
+	
+}
+
+.build:before{
+	content: url('images/build.png');
+}
+
+.cent{
+	display: flex;
+    justify-content: center;
+}
+
+.dwnld.pd{
+	padding:40px 50px 27px 50px;
+}
+
+.cent .dlink{
+	display:inline-block;
+	margin: -5px 5px 0 5px;
+}
+
+.z_h3{
+	text-align:center;
+	font-size:30px;
+	font-weight:700;
+	text-transform: uppercase;
+	margin-bottom: 29px;
+}
+
+.socials{
+	display:flex;
+	justify-content: space-around;
+	margin-bottom: 35px;
+}
+
+.s_item{
+	width: 15%;
+	display:inline-block;
+	position:relative;
+	padding-left:46px;
+	text-decoration:underline;
+    font-weight: 700;
+    color: #000;
+}
+
+.s_item:before{
+	position:absolute;
+	left: 0px;
+    top: -9px;
+}
+
+.vk_ic:before{
+	
+	content: url('images/vk.png');
+}
+
+.inst_ic:before{
+	
+	content: url('images/inst.png');
+}
+
+.yt_ic:before{
+	
+	content: url('images/yb.png');
+}
+
+.msg{
+	text-align:center;
+	
+}
+
+.msg a{
+	font-weight:900;
+	color: #000;
+}
+
+.sbr.fnt{
+	font-size:20px;
+}
+.undrl{
+	text-decoration:underline;
+}
+
+
+@media screen and (max-width:700px) { 
+	
+	.flx{
+		
+		flex-wrap: wrap;
+	}
+	.container .logo_top{
+		width: 100% ;
+		padding: 20px 0;
+	}
+	.vis{
+   		width: 100%;
+	}
+	.telegram_bot{
+		padding: 50px 50px 0 50px;
+		display:block;
+		text-align:center;
+	}
+
+	.container{width:100%;}
+	.row2{display:none;}
+	.add{font-size:26px;}
+	.book{display:none;}
+	.text_block{padding: 30px 30px 15px 30px;}
+	.rage-text{font-size: 25px;}
+	.first_iph{display:none;}
+	.second_descr {width: 100%;}
+	.cup{display:none;}
+	.manual{font-size:16px;}
+	.d1{
+		flex-wrap:wrap;
+		justify-content:center;
+	}
+	.nl_store.befico{ margin-bottom:20px;}
+	.nl_reader.befico{ margin-bottom:20px;}
+	.dlink{display:inline-block;}
+	.mrgst{margin-bottom:26px;}
+	.dwnld{padding: 40px 10px 27px 10px;}
+	.befico.nl_news{margin-bottom:30px;     margin-right: 15px;}
+	.btn_sub{padding: 5px 80px 5px 80px;}
+	.sbr .d1 {text-align:center;}
+	.nl_news .mrgst{text-align:left;}
+	.nl_assist .mrgst{text-align:left;}
+	.z_h3{font-size:24px;}
+	.socials{flex-wrap:wrap; margin-bottom: 10px;}
+	.s_item{
+		width:100%;
+		padding-left:0px;
+		text-align:center;
+		margin-bottom:20px;
+		padding-top: 33px;
+	}
+	.s_item:before{
+		left: 50%;
+		top: -10px;
+		transform: translateX(-50%);
+		
+	}
+	.msg{font-size:16px;}
+}
+
+@media screen and (max-width:400px) { 
+	.add {
+		font-size: 20px;
+		line-height: 29px;
+	}
+	.rage-text{font-size: 20px; margin-bottom: 22px;}
+	.boring-text {
+		font-size: 16px;
+		margin-bottom: 17px;
+	}
+	.find_telegr{padding: 30px 30px 15px 30px;}
+	
+	.manual{padding: 30px 30px 15px 30px; }
+	.ul_how{font-size:16px;	}
+	.dwnld{padding: 28px 10px 15px 65px;}
+	.dwnld.pd{padding: 30px 30px 15px 30px; }
+	.fz{font-size:14px;}
+	.cent{flex-wrap:wrap;}
+	.cent .dlink{margin-bottom:15px;}
+	.z_h3{font-size:16px;}
+	.s_item{font-size:16px;}
+	.btn{padding: 9px 35px 9px 35px}
+}
