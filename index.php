@@ -5,7 +5,7 @@
 		<meta charset="UTF-8">
 		<title>Тестовое задание</title>
 		<script type="text/javascript"></script>
-		<link href="styles.css" rel="stylesheet" type="text/css">	
+		<link href="css/styles.css" rel="stylesheet" type="text/css">	
 		<link href="https://fonts.googleapis.com/css?family=PT+Sans:200,400,500,600,700" rel="stylesheet">
 		
 	</head>
